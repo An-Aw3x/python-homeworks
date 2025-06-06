@@ -102,7 +102,7 @@ def unique_words(openfile):
 
 # Part 5: Finding the largest word in a file
 def largest_word(openfile):
-    largest_word = None # to avoid a name error
+    largest_word = "" # to avoid a name error
     with open(openfile, "r") as f:
         poem = f.read()
         words = poem.split()
